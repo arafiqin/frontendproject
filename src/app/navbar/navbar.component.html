@@ -1,0 +1,49 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.faizarice.com/portal/index.php" target="_blank">Faiza</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['/home']" routerlinkActive = "router-link-active">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['/product']" routerlinkActive = "router-link-active">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink] = "['/type']" routerlinkActive = "router-link-active">REWARDS</a>
+              </li>
+              
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" 
+            data-bs-toggle="dropdown" 
+            href="#"
+            role="button" 
+            aria-haspopup="true" 
+            aria-expanded="true">MORE</a>
+            <a href="http://www.faizashop.com/index.php?route=product/category&amp;path=84" 
+            class="dropdown-toggle" 
+            data-toggle="dropdown" 
+            aria-expanded="true">Recipes</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://www.faizarice.com/portal/contact-us.php">Contact Us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://www.faizarice.com/portal/index.php">Recipes</a>
+              
+              
+              
+            </div>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
